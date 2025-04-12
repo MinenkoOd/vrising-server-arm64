@@ -21,7 +21,7 @@ RUN sed -i 's@\["FEXInterpreter", "/usr/bin/uname", "-a"\]@"sudo -u root bash -c
 RUN python3 /tmp/InstallFEX.py && rm /tmp/InstallFEX.py
 
 
-ENV WINE_VERSION 9.8
+ENV WINE_VERSION 10.5
 ENV WINE_BRANCH devel
 
 # Install wine, wine64, and winetricks
