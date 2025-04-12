@@ -31,4 +31,4 @@ jobs:
           context: .
           platforms: linux/arm64
           push: true
-          tags: gogoout/vrising-arm64:latest
+          tags: lalraen/vrising-arm64:latest
